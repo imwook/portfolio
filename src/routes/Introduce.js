@@ -40,6 +40,7 @@ const Introduce = () => {
   return (
     <div className="Introduce">
       <img src="../assets/image/01.png" width="50px" height="50px" alt="" />
+      <img src="../assets/image/02.png" width="50px" height="50px" alt="" />
       <div id="introDiv">
         {/*  */}
         <div className="profile">
