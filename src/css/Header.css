@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    color: white;
+  }
+  
+  header p {
+    text-align: center;
+    padding: 1%;
+  }
+  
+  #headOne {
+    display: flex;
+  }
+  
+  #headOne p {
+    flex: 1;
+  }
+  
+  #headSpan {
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let imgArr = new Array();
+      const skillArr = ["90%", "85%", "80%", "60%", "75%", "80%"];
+      let skillObj;
+
+      for (let i = 0; i <= 5; i++) {
+        imgArr[i] = `assets/image/icon/0${i + 1}.png`;
+
+        console.log(imgArr[i]);
+      }
+
+      console.log("imgArr", imgArr);
+
+      for (const key in skillArr) {
+        // console.log("key", key);
+
+        const skill = skillArr[key];
+        const img = imgArr[key];
+
+        skillObj = {
+          skill,
+          img,
+        };
+      }
+
+      console.log("skillObj", skillObj);
+    </script>
+  </body>
+</html>
